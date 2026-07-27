@@ -4,10 +4,13 @@
 
 - HTML
 - SQL
+- Git Firefly
 - PHP
 - SCSS & Sass
 - XML
+- LOG
 - Emmet
+- env
 - Tailwind Syntax
 - Blade
 - JSON5
@@ -17,6 +20,7 @@
 - Laravel
 - Catppuccin
 - Catppuccin Icons
+- Prisma #
 
 Pint
 composer global require laravel/pint
