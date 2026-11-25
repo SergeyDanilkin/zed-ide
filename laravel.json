@@ -1,0 +1,45 @@
+{
+    "lsp": {
+        "intelephense": {
+            "settings": {
+                "files": {
+                    "associations": [
+                        "**/*.php",
+                        "_ide_helper.php",
+                        "_ide_helper_models.php",
+                        "_ide_helper_custom.php",
+                        ".phpstorm.meta.php"
+                    ],
+                    "exclude": [
+                        "**/.git/**",
+                        "**/node_modules/**",
+                        "**/storage/framework/cache/**",
+                        "**/storage/framework/sessions/**",
+                        "**/storage/framework/views/**",
+                        "**/storage/logs/**",
+                        "**/bootstrap/cache/**",
+                        "**/vendor/**/{Tests,tests}/**"
+                    ]
+                },
+                "environment": {
+                    "includePaths": []
+                },
+                "diagnostics": {
+                    "undefinedSymbols": true,
+                    "undefinedFunctions": true,
+                    "undefinedConstants": true,
+                    "undefinedTypes": true
+                }
+            }
+        }
+    },
+    "file_scan_exclusions": [
+        "**/.git",
+        "**/node_modules",
+        "**/storage/framework/cache",
+        "**/storage/framework/sessions",
+        "**/storage/framework/views",
+        "**/storage/logs",
+        "**/bootstrap/cache"
+    ]
+}
