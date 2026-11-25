@@ -1,0 +1,53 @@
+{
+    "lsp": {
+        "intelephense": {
+            "settings": {
+                "files": {
+                    "associations": [
+                        "**/*.php",
+                        "**/*.php.default",
+                        "**/.description.php",
+                        "**/.parameters.php"
+                    ],
+                    "exclude": [
+                        "**/.git/**",
+                        "**/node_modules/**",
+                        "**/bitrix/cache/**",
+                        "**/bitrix/components/**",
+                        "**/bitrix/managed_cache/**",
+                        "**/bitrix/stack_cache/**",
+                        "**/bitrix/local_cache/**",
+                        "**/bitrix/backup/**",
+                        "**/bitrix/tmp/**",
+                        "**/upload/**",
+                        "**/bitrix/modules/**/install/**",
+                        "**/bitrix/modules/**/lang/**",
+                        "**/bitrix/admin/**",
+                        "**/bitrix/js/**",
+                        "**/bitrix/css/**",
+                        "**/bitrix/images/**"
+                    ]
+                },
+                "environment": {
+                    "includePaths": [
+                        "/home/sergey/projects/bitrix_source/bitrix/modules/"
+                    ]
+                },
+                "diagnostics": {
+                    "undefinedSymbols": false,
+                    "undefinedFunctions": false,
+                    "undefinedConstants": false,
+                    "undefinedTypes": false
+                }
+            }
+        }
+    },
+    "file_scan_exclusions": [
+        "**/bitrix/cache",
+        "**/bitrix/managed_cache",
+        "**/upload",
+        "**/bitrix/backup",
+        "**/.git",
+        "**/node_modules"
+    ]
+}
