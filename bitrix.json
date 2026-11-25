@@ -29,6 +29,7 @@
                     ]
                 },
                 "environment": {
+                    "phpVersion": "8.1.0",
                     "includePaths": [
                         "/home/sergey/projects/bitrix_source/bitrix/modules/"
                     ]
